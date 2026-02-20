@@ -3,7 +3,7 @@
 Summary:	A set of annotation maps for KEGG
 Name:		R-%{packname}
 Version:	2.10.1
-Release:	1
+Release:	2
 License:	Free for academic use. Non-academic users are requested to obtain a license agreement with KEGG.
 Group:		Applications/Engineering
 Source0:	http://www.bioconductor.org/packages/release/data/annotation/src/contrib/%{packname}_%{version}.tar.gz
