@@ -1,14 +1,15 @@
 %define		packname	KEGG.db
 
+%undefine	_debugsource_packages
 Summary:	A set of annotation maps for KEGG
 Name:		R-%{packname}
 Version:	2.10.1
-Release:	2
+Release:	3
 License:	Free for academic use. Non-academic users are requested to obtain a license agreement with KEGG.
 Group:		Applications/Engineering
-Source0:	http://www.bioconductor.org/packages/release/data/annotation/src/contrib/%{packname}_%{version}.tar.gz
+Source0:	https://bioconductor.org/packages/release/data/annotation/src/contrib/%{packname}_%{version}.tar.gz
 # Source0-md5:	9f30aaf9a1e0ac767f3393b61018a0db
-URL:		http://www.bioconductor.org/packages/release/data/annotation/html/KEGG.db.html
+URL:		https://bioconductor.org/packages/release/data/annotation/html/KEGG.db.html
 BuildRequires:	R-AnnotationDbi
 BuildRequires:	R
 BuildRequires:	texlive-latex
